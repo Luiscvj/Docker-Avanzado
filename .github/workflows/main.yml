@@ -20,6 +20,6 @@ jobs:
          docker build --platform linux --tag luiscvj/luissitioweb:latest -f CI/Dockerfile .
     -  name: Publish docker image
        run: |
-         docker puch luiscvj/luissitioweb:latest
+         docker push luiscvj/luissitioweb:latest
 
     
