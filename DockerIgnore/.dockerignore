@@ -1,0 +1,12 @@
+.git/
+
+
+bin/
+obj/
+
+.env
+
+tests/
+
+README.md
+
