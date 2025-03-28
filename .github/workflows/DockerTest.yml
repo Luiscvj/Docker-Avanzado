@@ -18,7 +18,7 @@ jobs:
 
       - name: Run docker container
         run: |
-          docker build -d --name testcontainer alpine tail -f /dev/null
+          docker run -d --name testcontainer alpine tail -f /dev/null
       - name: Run tests
         run: |
           docker exec testcontainer /bin/sh -c "
