@@ -28,6 +28,7 @@ jobs:
             cd LuisPrueba
             printf 'Este es el contenido del archivo. \nPuede incluir varias lineas' > ejemplo.txt
             ls -a || exit 1
+            
             "
             
           
